@@ -1,0 +1,13 @@
+packageManagerStrictVersion: true
+
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+
+strictDepBuilds: true
+
+minimumReleaseAge: 4320
+
+trustPolicy: no-downgrade
+
+blockExoticSubdeps: true
