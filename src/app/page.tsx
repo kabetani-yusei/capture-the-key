@@ -14,7 +14,7 @@ export default function Home() {
     setLoading(true);
     setSummary("");
     try {
-      const res = await fetch(`/api/summarize?key=${KEY2}`, {
+      const res = await fetch(`/api/summarize?key=${process.env.NEXT_PUBLIC_KEY3}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
